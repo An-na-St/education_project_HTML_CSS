@@ -1,2 +1,2 @@
 # education_project_HTML_CSS
-Frontend development
+This is repository for training skills in HTML and CSS.
