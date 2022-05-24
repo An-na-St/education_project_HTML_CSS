@@ -1,0 +1,275 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/*Header->*/
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 100%;
+  height: 100vh;
+  background: url('images/main_image.JPG') center no-repeat;
+  background-size: cover;
+}
+
+#header_container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#header_title::before {
+  content: '';
+  display: block;
+  width: 65px;
+  height: 69px;
+  background: url('images/Ellipse.png') center no-repeat;
+  margin: 0 auto 90px;
+}
+
+#header_title {
+  font-size: 54px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 10px;
+}
+
+#header_text {
+  margin: 40px auto 0;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+#header_subtitle::after {
+  content: '';
+  display: block;
+  width: 23px;
+  height: 37px;
+  background: url('images/Shape.png') center no-repeat;
+  margin: 240px auto 0;
+}
+
+/*Sections->*/
+
+.title {
+  position: absolute;
+  margin-top: -27px;
+  width: 905px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section {
+  width: 100%;
+  max-width: 905px;
+}
+
+.title h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.line {
+  height: 2px;
+  width: 240px;
+}
+
+.content {
+  position: relative;
+  text-align: center;
+  margin: 0;
+}
+
+.line.dark { background: #3c3c3c; }
+
+.line.light { background: #fff; }
+
+.title.dark { color: #3c3c3c; }
+
+/*Section: About us->*/
+
+.section.about { margin: 160px auto; }
+
+.content.about {
+  border: 2px #3c3c3c solid;
+  border-top: none;
+  margin: 0;
+}
+
+#text_about {
+  color: #3c3c3c;
+  padding: 70px 160px 50px;
+  margin: 0;
+}
+
+/*Section: Services->*/
+
+#container_services {
+  background: url('images/background_services.jpg') center no-repeat;
+  width: 100%;
+  min-height: 490px;
+  padding: 115px 0;
+  background-size: cover;
+}
+
+.section.services { margin: 0 auto; }
+
+.content.services {
+  border: 2px #fff solid;
+  border-top: none;
+  margin: 0;
+}
+
+#text_services {
+  padding: 75px 170px 50px;
+  font-weight: 300;
+  margin: 0;
+}
+
+/*Section: What we do->*/
+
+.section.what { margin: 120px auto; }
+
+#container_what {
+  border: 2px #3c3c3c solid;
+  border-top: none;
+  padding: 0 15% 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo { margin-top: 110px; }
+
+#container_what h2 {
+  font-weight: bold;
+  color: #3c3c3c;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.text {
+  font-weight: 300;
+  color: #3c3c3c;
+  margin: 0;
+  margin-top: 35px;
+  position: relative;
+  text-align: center;
+}
+
+/*Offers->*/
+
+#offers {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.line_content {
+  content: '';
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.mini_container { 
+  width: 28%; 
+  position: relative;
+}
+
+.mini_container.center { width: 43%; }
+
+.background {
+  width: 100%;
+  height: 100%;
+}
+
+.work {
+  position: absolute;
+  text-transform: uppercase;
+  left: 9%;
+  bottom: 16%;
+}
+
+.work.center {
+  left: 6%;
+}
+
+footer {
+  width: 100%;
+  max-width: 905px;
+  margin: 130px auto 65px;
+}
+
+.content.footer {
+  border: 2px #3c3c3c solid;
+  border-top: none;
+  margin: 0;
+}
+
+#text_footer {
+  color: #3c3c3c;
+  padding: 70px 170px 45px;
+  margin: 0;
+}
+
+#button_footer {
+  width: 395px;
+  height: 60px;
+  background: #3c3c3c;
+  border: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+}
+
+#button_footer:hover {
+  background-color: #a9b5c8;
+  transition: background-color .1s linear;
+}
+
+#link {
+  text-decoration: none;
+  color: #fff;
+}
+
+#footnote {
+  margin: 60px 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#footnote h4 {
+  font-size: 14px;
+  color: #3c3c3c;
+}
