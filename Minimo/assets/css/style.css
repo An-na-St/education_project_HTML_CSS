@@ -1,0 +1,264 @@
+body {
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+}
+
+/*Top Menu*/
+.header {
+    width: 1063px;
+    height: 30px;
+    margin: 70px auto 0;
+    /*position: fixed;*/
+    z-index: 100;
+    
+}
+
+.logo {
+    font-size: 30px;
+    letter-spacing: 6px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    position: absolute;
+}
+
+.container_top {
+    width: 768px;
+    height: 23px;
+    max-width: 768px;
+    margin-left: 440px;
+    padding-top: 7px;
+}
+
+.nav_link {
+    margin-left: 0;
+    margin-right: 118px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+}
+
+/*Image_Girls*/
+.container_girls {
+    width: 1063px;
+    height: 575px;
+    margin: 0 auto;
+}
+
+.girls {
+    width: 1063px;
+    height: 575px;
+}
+
+/*First Text Block*/
+
+.text_block_1 {
+    width: 890px;
+    height: 350px;
+    margin: 100px auto 0;
+}
+
+.photo_diary {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.the_perfect {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.big_text {
+    line-height: 25px;
+}
+
+.leave_comment {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-top: 45px;
+}
+
+/*Big container (Block)*/
+
+.big_container {
+    width: 890px;
+    height: 1095px;
+    margin: 135px auto 0;
+}
+
+.sub_cont_1 {
+    width: 420px;
+    height: 480px;
+    position: absolute;
+}
+
+.sub_cont_2 {
+    width: 420px;
+    height: 480px;
+    position: absolute;
+    margin-left: 470px;
+}
+
+.sub_cont_3 {
+    width: 420px;
+    height: 480px;
+    position: absolute;
+    margin-top: 610px;
+}
+
+.sub_cont_4 {
+    width: 420px;
+    height: 480px;
+    position: absolute;
+    margin-left: 470px;
+    margin-top: 610px;
+}
+
+.block_images {
+    width: 420px;
+    height: 280px;
+}
+
+.mini_title {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-top: 30px;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.text {
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+/*Letter*/
+
+.background_top {
+    width: 100%;
+    min-width: 1200px;
+    height: 285px;
+    margin-top: 120px;
+    background: #f0f0f0;
+}
+
+.inside_cont {
+    width: 400px;
+    height: 285px;
+    margin: 0 auto;
+}
+
+.background_title {
+    font-size: 30px;
+    padding-top: 70px;
+    padding-left: 10px;
+    color: #333333;
+}
+
+.background_text {
+    white-space: nowrap;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 3px;
+}
+
+.arrow {
+    width: 32px;
+    height: auto;
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 368px;
+    
+}
+
+.line {
+    width: 400px;
+    height: 0;
+    border: none;
+	border-top: 1px solid #333;
+    margin: 90px 0 auto;
+}
+
+/*Little Container*/
+
+.little_container {
+    width: 890px;
+    height: 800px;
+    margin: 103px auto 0;
+}
+
+.button {
+    width: 164px;
+    height: 60px;
+    border: 1px solid #626262;
+    margin: 643px 367px 0;
+    background: white;
+}
+
+.button_text {
+    font-size: 20px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+
+/*Footer*/
+
+.background_footer {
+    width: 100%;
+    min-width: 1200px;
+    height: 100px;
+    background: #f0f0f0;
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    color: black;
+    margin: 0 auto; 
+}
+
+.href_1 {
+    white-space: nowrap;
+    margin: 40px auto 0 150px;
+    position: absolute;
+}
+
+.href_2 {
+    margin: 40px auto 0 303px;
+    position: absolute;
+}
+
+.href_3 {
+    margin: 40px auto 0 990px;
+    position: absolute;
+}
+
+.images {
+    width: auto;
+    height: 14px;
+}
+
+.facebook {
+    margin: 42px auto 0 1053px;
+    position: absolute;
+}
+
+.twitter {
+    margin: 42px auto 0 1078px;
+    position: absolute;
+}
+
+.instagram {
+    margin: 42px auto 0 1114px;
+    position: absolute;
+}

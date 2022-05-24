@@ -1,0 +1,356 @@
+body {
+    font-size: 14px;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+}
+
+/*Top Menu*/
+.header {
+    width: 1063px;
+    height: 30px;
+    margin: 70px auto 0;
+}
+
+.logo {
+    font-size: 30px;
+    letter-spacing: 6px;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    position: absolute;
+}
+
+.container_top {
+    width: 768px;
+    height: 23px;
+    max-width: 768px;
+    margin-left: 440px;
+    padding-top: 7px;
+}
+
+.nav_link {
+    margin-left: 0;
+    margin-right: 118px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #626262;
+}
+
+/*Image_Girls*/
+.container_girls {
+    width: 1063px;
+    height: 575px;
+    margin: 0 auto;
+}
+
+.girls {
+    width: 1063px;
+    height: 575px;
+}
+
+/*First Text Block*/
+
+.text_block_1 {
+    width: 890px;
+    height: 360px;
+    margin: 100px auto 0;
+}
+
+.photo_diary {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+}
+
+.the_perfect {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.big_text {
+    line-height: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*Image Girl*/
+
+.container_photos {
+    width: 900px;
+    height: 2143px;
+    margin: 100px auto 0;
+}
+
+.girl_with_scarf {
+    width: 900px;
+    height: 675px;
+}
+
+.girl_in_skirt {
+    width: 900px;
+    height: 675px;
+    margin-top: 60px;
+}
+
+.girl_dancing {
+    width: 900px;
+    height: 675px;
+    margin-top: 60px;
+}
+
+/*Second Text Block*/
+
+.text_block_2 {
+    width: 900px;
+    height: 303px;
+    margin: 55px auto 0;
+    line-height: 25px;
+}
+
+.italic_text {
+    font-size: 13px;
+    font-style: italic;
+    margin-left: 30px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+/*References*/
+
+.references_block {
+    width: 900px;
+    height: 20px;
+    margin: 65px auto 0;
+}
+
+.share {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-left: 700px;
+    position: absolute;
+}
+
+.references {
+    width: 134px;
+    height: 17px;
+    margin-left: 764px;
+    position: absolute;
+}
+
+/*Background Top*/
+
+.background_top {
+    width: 100%;
+    min-width: 1200px;
+    height: 435px;
+    margin-top: 76px;
+    background: #f0f0f0;
+}
+
+.inside_cont {
+    width: 900px;
+    height: 435px;
+    margin: 0 auto;
+}
+
+.you_may {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-top: 65px;
+    position: absolute;
+}
+
+.pieces {
+    width: 900px;
+    height: 226px;
+    margin: 120px auto 0;
+    position: absolute;
+}
+
+.sub_cont_1 {
+    width: 273px;
+    height: 226px;
+    position: absolute;
+}
+
+.sub_cont_2 {
+    width: 273px;
+    height: 226px;
+    position: absolute;
+    margin-left: 314px;
+}
+
+.sub_cont_3 {
+    width: 273px;
+    height: 226px;
+    position: absolute;
+    margin-left: 628px;
+}
+
+.block_images {
+    width: 273px;
+    height: 182px;
+}
+
+.title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/*Reviews*/
+
+.reviews {
+    width: 900px;
+    height: 660px;
+    margin: 0 auto;
+}
+
+.comment_1 {
+    width: 900px;
+    height: 105px;
+    margin-top: 120px;
+    position: absolute;
+}
+
+.john {
+    width: auto;
+    height: 70px;
+    position: absolute;
+}
+
+.john_comment {
+    margin-top: 0;
+    margin-left: 105px;
+    line-height: 25px;
+    position: absolute;
+}
+
+.name_john {
+    font-weight: bold;
+}
+
+.reply {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    line-height: 45px;
+}
+
+.comment_2 {
+    width: 900px;
+    height: 105px;
+    margin-top: 282px;
+    position: absolute;
+}
+
+.reply_jane {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    line-height: 95px;
+}
+
+.comment_3 {
+    width: 900px;
+    height: 70px;
+    margin-top: 440px;
+    position: absolute;
+}
+
+.empty_comment {
+    margin-top: 0;
+    margin-left: 105px;
+    position: absolute;
+}
+
+.empty_reply {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    border: 1px solid #b4ad9e;
+    border-radius: 5px;
+    padding: 23px 619px 30px 35px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.connected {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin: 532px 700px;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.twitter_grey {
+    margin: 533px auto 0 855px;
+    opacity: .3;
+    position: absolute;
+}
+
+.facebook_grey {
+    margin: 531px auto 0 889px;
+    opacity: 1;
+    position: absolute;
+    height: 16px;
+}
+
+/*Footer*/
+
+.background_footer {
+    width: 100%;
+    min-width: 1200px;
+    height: 100px;
+    background: #f0f0f0;
+}
+
+.footer {
+    width: 1200px;
+    height: 100px;
+    color: black;
+    margin: 0 auto; 
+}
+
+.href_1 {
+    white-space: nowrap;
+    margin: 40px auto 0 150px;
+    position: absolute;
+}
+
+.href_2 {
+    margin: 40px auto 0 303px;
+    position: absolute;
+}
+
+.href_3 {
+    margin: 40px auto 0 990px;
+    position: absolute;
+}
+
+.images {
+    width: auto;
+    height: 14px;
+}
+
+.facebook {
+    margin: 42px auto 0 1053px;
+    position: absolute;
+}
+
+.twitter {
+    margin: 42px auto 0 1078px;
+    position: absolute;
+}
+
+.instagram {
+    margin: 42px auto 0 1114px;
+    position: absolute;
+}
